@@ -5,11 +5,8 @@ class App extends Component {
 
   state = {
     newusers : [
-      {name: 'ed', email: 'vergara@ed.com', password: 'pwd1' },
-      {name: 'ed', email: 'vergara@ed.com', password: 'pwd2' },
-      {name: 'ed', email: 'vergara@ed.com', password: 'pwd' },
-      {name: 'ed', email: 'vergara@ed.com', password: 'pwd' },
-      {name: 'ed', email: 'vergara@ed.com', password: 'pwd' }
+      {name: 'us1', email: 'name1@mailinator.com', password: 'pwd1' },
+      {name: 'us2', email: 'name2@mailinator.com', password: 'pwd2' }
     ]
   }
   render() {
