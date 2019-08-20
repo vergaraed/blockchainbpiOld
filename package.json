@@ -1,45 +1,35 @@
 {
-  "name": "blockchainbpi",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "@babel/runtime": "^7.5.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+  "name": "react-redux-registration-login-example",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornflourblue/react-redux-registration-login-example.git"
   },
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "history": "^4.6.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
