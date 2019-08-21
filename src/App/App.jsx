@@ -10,6 +10,7 @@ import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
 
 class App extends React.Component {
+    
     constructor(props) {
         super(props);
 
@@ -29,12 +30,15 @@ class App extends React.Component {
                             <div className={`alert ${alert.type}`}>{alert.message}</div>
                         }
                         <Router history={history}>
+                           
                             <div>
                                 <PrivateRoute exact path="/" component={HomePage} />
                                 <Route path="/login" component={LoginPage} />
                                 <Route path="/register" component={RegisterPage} />
                             </div>
+                            
                         </Router>
+
                     </div>
                 </div>
             </div>
